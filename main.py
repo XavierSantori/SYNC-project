@@ -32,6 +32,12 @@ def extract_frame(video_path, frame_number):
 # Извлечение 10-го кадра из видеофайла "video.mp4"
 frame = extract_frame("video.mp4", 10)
 
+
+T_RED = 30
+T_GREEN = 30
+T_YELLOW = 3
+
+
 # Отображение кадра
 cv2.imshow("Frame", frame)
 cv2.waitKey(0)
